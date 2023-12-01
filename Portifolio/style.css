@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Saira+Extra+Condensed:wght@100&display=swap');
+
+html {
+    font-family: 'Saira Extra Condensed', sans-serif;
+    background-color: white;
+    margin: 0;
+}
+body {
+    margin: 0;
+}
+header {
+    margin: 0px;
+    position: fixed;
+    height: 70px;
+    width: 100%;
+    z-index: 1;
+    background: #ffc266;
+    background: radial-gradient(circle, rgba(255, 193, 23, 0.71)0%, #f38524 100%);
+    border-bottom: 1px solid rgb(255, 217, 0);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-list {
+    padding: 0px 10px;
+    font-weight: bolder;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+
+.nav-list a:hover {
+    padding-top: 10px;
+    color: #FFA100;
+}
+
+.nav-list a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    transition: 0.5s;
+}
+.bannerbackground {
+
+    background: url(assests/imgs/banner.png);
+    background-repeat: no-repeat;
+    min-height: 840px;
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.modelo {
+    
+}
+.modelo img {
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 75%;
+    transition: padding-left 0.5s;
+}
+.modelo img:hover {
+    top: 0;
+    left: 0;
+    padding-left: 20px;
+    
+}
